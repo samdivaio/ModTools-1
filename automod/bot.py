@@ -2199,7 +2199,7 @@ class AutoMod(discord.Client):
         Changes the "Now Playing..." game on Discord!
         """
         if author.id == self.config.master_id:
-            await self.change_status(game=discord.Game(name='CHECK THIS OUT',
+            await self.change_status(game=discord.Game(name='with samvaio',
                                                        url=string_game,
                                                        type=1))
             return Response(':thumbsup:', reply=True)
